@@ -1,7 +1,7 @@
 export const material:{[key:string]:number}={ 
     "platinum":10,
     "titan":8,
-    "stainless steel":2,
+    "stainless steel":5,
     "white gold":7,
     "yellow gold":6,
 }

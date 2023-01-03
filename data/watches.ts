@@ -23,7 +23,7 @@ const watches:Watch[] = [
 
     },
     {
-        "model": "Tafg heuer Monaco",
+        "model": "Tag heuer Monaco",
         "price": 3000,
         "material": "stainless steel",
         "lifetime": "60h" ,
