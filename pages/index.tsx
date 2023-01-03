@@ -90,13 +90,13 @@ export default function Home() {
 
             {_.orderBy(watches,x=>((k||{}as any)[x.model])||0,"desc").map(x => <tr className={`${(k||{}as any)[x.model]==maxK?"bg-success text-light":""}`} key={x.model}>
               <td>{x.model}</td>
-              <td>{x.price}</td>
+              <td>{x.price}$</td>
               <td>{x.material}</td>
               <td>{x.lifetime}</td>
               <td>{x.populirity}</td>
               <td>{x.support}</td>
               <td>{x.mechanism}</td>
-              <td>{x.waterResist}</td>
+              <td>{x.waterResist}atm</td>
               <td>{x.origin}</td>
               <td>
                 <Form.Check checked={!!selectedWatches.find(y => y.model == x.model)} onClick={() => handleSelect(x)} />
